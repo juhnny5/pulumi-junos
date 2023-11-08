@@ -15,7 +15,7 @@
 package main
 
 import (
-	junos "github.com/jeremmfr/terraform-provider-junos"
+	junos "github.com/juhnny5/pulumi-junos/provider"
 	"github.com/juhnny5/pulumi-junos/provider/pkg/version"
 	"github.com/pulumi/pulumi-terraform-bridge/v3/pkg/tfgen"
 )

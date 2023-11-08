@@ -370,7 +370,7 @@ builds:
   - linux
   ignore: []
   ldflags:
-  - -X github.com/pulumi/pulumi-junos/provider/pkg/version.Version={{.Tag}}
+  - -X github.com/juhnny5/pulumi-junos/provider/pkg/version.Version={{.Tag}}
   main: ./cmd/pulumi-resource-junos/
   sort: asc
   use: git

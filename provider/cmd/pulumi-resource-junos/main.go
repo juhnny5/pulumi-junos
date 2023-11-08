@@ -19,9 +19,9 @@ package main
 import (
 	_ "embed"
 
+	junos "github.com/juhnny5/pulumi-junos"
+	"github.com/juhnny5/pulumi-junos/provider/pkg/version"
 	"github.com/pulumi/pulumi-terraform-bridge/v3/pkg/tfbridge"
-	junos "github.com/pulumi/pulumi-junos/provider"
-	"github.com/pulumi/pulumi-junos/provider/pkg/version"
 )
 
 //go:embed schema-embed.json
